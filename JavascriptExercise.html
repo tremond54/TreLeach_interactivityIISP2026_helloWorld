@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta cahrset="UTF -8">
+    <meta name="viewport" content="width=device-wdth, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+
+<body>
+
+    <section id="JSdemo">
+
+        <button
+    onclick="alert('are you sure?!')"
+    id="colorChangeButton">
+    purchase this</button>
+
+    <button
+    onmouseover="document.getElementById('yourName').innerHTML= prompt('what is your name?' , 'Tre Leach')"
+    id="colorChangeButton">
+    prompt</button>
+    yourName is <span id="yourName"></span>
+
+    <button
+    onclick="this.innerText='The third button!';"
+    id="colorChangeButton">
+    innerText</button>
+
+    </section>
+
+    <section>
+        <button 
+   onclick=
+   "this.classList.add('newClass')"
+   id="colorChangeButton" style="background-color:white;color:black;">
+   this is not a button</button>
+
+    <style>
+    .newClass{
+        opacity:0;
+    }
+    </style>
+
+    <button onmouseover="alert('Oh you found me!')">This is a button</button>
+       I always have ways to procrastinate. When I attempt to
+<select id="todo" onchange="document.getElementById('iWould').innerHTML=`${document.getElementById('todo').value}`">
+  <option value="then I would be afraid of falling behind on other immediate deadlines. Most of the bullshit jobs are immediate. I know working on my projects are the upmost important thing, but sometimes I feel that's luxrious">work on my project
+  <option value="then I would think: Oh I would need to do my projects, reply to emails, other collective obligations...Oh wait maybe I can walk my dog...">clean the house
+  <option value="reply to emails doesn't intrincially give me satisfaction. It does help if it cleans up more, but I mean, at the end of the day, it's emails. It's not like artworks that will generate a lot of long term effect, but I still need to reply to them!">reply to email
+</select>
+    
+    </section>
+</body>
+
+</html>
