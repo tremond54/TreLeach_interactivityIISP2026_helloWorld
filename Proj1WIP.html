@@ -1,1 +1,39 @@
+<!DOCTYPE html>   <!--Declares this is an HTML5 document-->
+<html lang="en">   <!--html element is always the root element of the page-->
+<head>   <!--Contains metadata about the document-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+  <title>What Influences Me?</title>
+
+<link rel="stylesheet" href="project.css">
+
+</head>
+<body>
+    <header class="top">
+        <h1>WHAT INFLUENCES ME?</h1>
+
+        <nav class="categories">
+            <button class="cat active" data-filter="all">All</button>
+            <button class="cat" data-filter="movies">Movies</button>
+            <button class="cat" data-filter="tv">TV Shows</button>
+            <button class="cat" data-filter="sports">Sports</button>
+            <button class="cat" data-filter="art">Art</button>
+            <button class="cat" data-filter="about">About</button>
+        </nav>
+    </header>
+
+    <main class="wrap">
+    <!-- GRID -->
+    <section class="grid">
+      <!-- Each card: data-category + data-title + data-desc -->
+      <button class="card" data-category="tv"
+        data-title="Victorious"
+        data-desc="This show influenced my humor, style, and nostalgia."
+      >
+
+<script src="script.js"></script>
+</body>
+</html>
